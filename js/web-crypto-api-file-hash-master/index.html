@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hash it!</title>
+    <link href="app.css" rel="stylesheet" type="text/css" />
+	<script src="app.js"></script>
+
+  </head>
+
+  <body>
+    <form name="uploadForm">
+      <div>
+        <input id="uploadInput" type="file" name="myFiles" onchange="hashIt();"><br/>
+        <div>
+          Size: <span id="fileSize">0</span>
+        </div>
+      </div>
+    </form>
+    <span id="output"></span>
+    
+    <script type="text/javascript" src="app.js" />
+  </body>
+</html>
